@@ -1,4 +1,4 @@
-Questions for Lex Fridman
+Questions for Lex Fridman to ask Roger Williams
 
 | Number | Question | Story Relevance (1-10) | Zeitgeist (1-10) | Dread (1-10) | Lex Order |
 |--------|----------|------------------------|-----------------|--------------|-----------|
