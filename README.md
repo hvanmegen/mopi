@@ -4,4 +4,4 @@ This repository contains the full story of The Metamorphosis of Prime Intellect 
 
 The original story can be found at http://localroger.com/prime-intellect/index.html
 
-The html file [mopi.html](https://hvanmegen.github.io/mopi/mopi.html) can be found online https://qmp-media.nl/mopi where it is automatically published upon being updated here.
+The html file [mopi.html](mopi.html) can be found online @ https://hvanmegen.github.io/mopi/mopi.html where it is automatically published upon being updated here.
