@@ -8,4 +8,4 @@ The html file [mopi.html](mopi.html) can be found and read online @ https://hvan
 
 
 ## Note about this version
-I have been given permission from Mr. Williams himself to have published this on my own website, but I would like to keep it on Github for now because I don't want my webserver to receive Reddit's Hug Of Death in case this explodes. (Please pardon my hubris in my enthusiasm for coming up with some questions that have already been deleted from the repository (see the commit history) I have refrained from re-building the repository.. do with them as you please)
+I have been given permission from Mr. Williams himself to have published this on my own website, but I would like to keep it on Github for now because I don't want my webserver to receive Reddit's Hug Of Death in case this explodes.
