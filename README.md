@@ -9,3 +9,6 @@ The html file [mopi.html](mopi.html) can be found and read online @ https://hvan
 
 ## Note about this version
 I have been given permission from Mr. Williams himself to have published this on my own website, but I would like to keep it on Github for now because I don't want my webserver to receive Reddit's Hug Of Death in case this explodes.
+
+## Reddit
+This repository was featured on Reddit @ https://www.reddit.com/r/lexfridman/comments/1276fx0/an_interview_with_roger_williams_author_of_the/
