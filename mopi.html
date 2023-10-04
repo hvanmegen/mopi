@@ -64,6 +64,10 @@
 			aside { font-size: 0.7em; color:#aaa; text-align:center; padding:0.5em; }
 			aside a { color:#aaa; }
 
+            .circuit {
+                background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDQgMzA0IiB3aWR0aD0iMzA0IiBoZWlnaHQ9IjMwNCI+CiAgPHBhdGggZmlsbD0nIzAwMDAwMCcgZmlsbC1vcGFjaXR5PScwLjE1JyBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGQ9Ik00NC4xIDIyNGE1IDUgMCAxIDEgMCAySDB2LTJoNDQuMXptMTYwIDQ4YTUgNSAwIDEgMSAwIDJIODJ2LTJoMTIyLjF6bTU3LjgtNDZhNSA1IDAgMSAxIDAtMkgzMDR2MmgtNDIuMXptMCAxNmE1IDUgMCAxIDEgMC0ySDMwNHYyaC00Mi4xem02LjItMTE0YTUgNSAwIDEgMSAwIDJoLTg2LjJhNSA1IDAgMSAxIDAtMmg4Ni4yem0tMjU2LTQ4YTUgNSAwIDEgMSAwIDJIMHYtMmgxMi4xem0xODUuOCAzNGE1IDUgMCAxIDEgMC0yaDg2LjJhNSA1IDAgMSAxIDAgMmgtODYuMnpNMjU4IDEyLjFhNSA1IDAgMSAxLTIgMFYwaDJ2MTIuMXptLTY0IDIwOGE1IDUgMCAxIDEtMiAwdi01NC4yYTUgNSAwIDEgMSAyIDB2NTQuMnptNDgtMTk4LjJWODBoNjJ2MmgtNjRWMjEuOWE1IDUgMCAxIDEgMiAwem0xNiAxNlY2NGg0NnYyaC00OFYzNy45YTUgNSAwIDEgMSAyIDB6bS0xMjggOTZWMjA4aDE2djEyLjFhNSA1IDAgMSAxLTIgMFYyMTBoLTE2di03Ni4xYTUgNSAwIDEgMSAyIDB6bS01LjktMjEuOWE1IDUgMCAxIDEgMCAySDExNHY0OEg4NS45YTUgNSAwIDEgMSAwLTJIMTEydi00OGgxMi4xem0tNi4yIDEzMGE1IDUgMCAxIDEgMC0ySDE3NnYtNzQuMWE1IDUgMCAxIDEgMiAwVjI0MmgtNjAuMXptLTE2LTY0YTUgNSAwIDEgMSAwLTJIMTE0djQ4aDEwLjFhNSA1IDAgMSAxIDAgMkgxMTJ2LTQ4aC0xMC4xek02NiAyODQuMWE1IDUgMCAxIDEtMiAwVjI3NEg1MHYzMGgtMnYtMzJoMTh2MTIuMXpNMjM2LjEgMTc2YTUgNSAwIDEgMSAwIDJIMjI2djk0aDQ4djMyaC0ydi0zMGgtNDh2LTk4aDEyLjF6bTI1LjgtMzBhNSA1IDAgMSAxIDAtMkgyNzR2NDQuMWE1IDUgMCAxIDEtMiAwVjE0NmgtMTAuMXptLTY0IDk2YTUgNSAwIDEgMSAwLTJIMjA4di04MGgxNnYtMTRoLTQyLjFhNSA1IDAgMSAxIDAtMkgyMjZ2MThoLTE2djgwaC0xMi4xem04Ni4yLTIxMGE1IDUgMCAxIDEgMCAySDI3MlYwaDJ2MzJoMTAuMXpNOTggMTAxLjlWMTQ2SDUzLjlhNSA1IDAgMSAxIDAtMkg5NnYtNDIuMWE1IDUgMCAxIDEgMiAwek01My45IDM0YTUgNSAwIDEgMSAwLTJIODBWMGgydjM0SDUzLjl6bTYwLjEgMy45VjY2SDgydjY0SDY5LjlhNSA1IDAgMSAxIDAtMkg4MFY2NGgzMlYzNy45YTUgNSAwIDEgMSAyIDB6TTEwMS45IDgyYTUgNSAwIDEgMSAwLTJIMTI4VjM3LjlhNSA1IDAgMSAxIDIgMFY4MmgtMjguMXptMTYtNjRhNSA1IDAgMSAxIDAtMkgxNDZ2NDQuMWE1IDUgMCAxIDEtMiAwVjE4aC0yNi4xem0xMDIuMiAyNzBhNSA1IDAgMSAxIDAgMkg5OHYxNGgtMnYtMTZoMTI0LjF6TTI0MiAxNDkuOVYxNjBoMTZ2MzRoLTE2djYyaDQ4djQ4aC0ydi00NmgtNDh2LTY2aDE2di0zMGgtMTZ2LTEyLjFhNSA1IDAgMSAxIDIgMHpNNTMuOSAxOGE1IDUgMCAxIDEgMC0ySDY0VjJINDhWMGgxOHYxOEg1My45em0xMTIgMzJhNSA1IDAgMSAxIDAtMkgxOTJWMGg1MHYyaC00OHY0OGgtMjguMXptLTQ4LTQ4YTUgNSAwIDAgMS05LjgtMmgyLjA3YTMgMyAwIDEgMCA1LjY2IDBIMTc4djM0aC0xOFYyMS45YTUgNSAwIDEgMSAyIDBWMzJoMTRWMmgtNTguMXptMCA5NmE1IDUgMCAxIDEgMC0ySDEzN2wzMi0zMmgzOVYyMS45YTUgNSAwIDEgMSAyIDBWNjZoLTQwLjE3bC0zMiAzMkgxMTcuOXptMjguMSA5MC4xYTUgNSAwIDEgMS0yIDB2LTc2LjUxTDE3NS41OSA4MEgyMjRWMjEuOWE1IDUgMCAxIDEgMiAwVjgyaC00OS41OUwxNDYgMTEyLjQxdjc1LjY5em0xNiAzMmE1IDUgMCAxIDEtMiAwdi05OS41MUwxODQuNTkgOTZIMzAwLjFhNSA1IDAgMCAxIDMuOS0zLjl2Mi4wN2EzIDMgMCAwIDAgMCA1LjY2djIuMDdhNSA1IDAgMCAxLTMuOS0zLjlIMTg1LjQxTDE2MiAxMjEuNDF2OTguNjl6bS0xNDQtNjRhNSA1IDAgMSAxLTIgMHYtMy41MWw0OC00OFY0OGgzMlYwaDJ2NTBINjZ2NTUuNDFsLTQ4IDQ4djIuNjl6TTUwIDUzLjl2NDMuNTFsLTQ4IDQ4VjIwOGgyNi4xYTUgNSAwIDEgMSAwIDJIMHYtNjUuNDFsNDgtNDhWNTMuOWE1IDUgMCAxIDEgMiAwem0tMTYgMTZWODkuNDFsLTM0IDM0di0yLjgybDMyLTMyVjY5LjlhNSA1IDAgMSAxIDIgMHpNMTIuMSAzMmE1IDUgMCAxIDEgMCAySDkuNDFMMCA0My40MVY0MC42TDguNTkgMzJoMy41MXptMjY1LjggMThhNSA1IDAgMSAxIDAtMmgxOC42OWw3LjQxLTcuNDF2Mi44MkwyOTcuNDEgNTBIMjc3Ljl6bS0xNiAxNjBhNSA1IDAgMSAxIDAtMkgyODh2LTcxLjQxbDE2LTE2djIuODJsLTE0IDE0VjIxMGgtMjguMXptLTIwOCAzMmE1IDUgMCAxIDEgMC0ySDY0di0yMi41OUw0MC41OSAxOTRIMjEuOWE1IDUgMCAxIDEgMC0ySDQxLjQxTDY2IDIxNi41OVYyNDJINTMuOXptMTUwLjIgMTRhNSA1IDAgMSAxIDAgMkg5NnYtNTYuNkw1Ni42IDE2MkgzNy45YTUgNSAwIDEgMSAwLTJoMTkuNUw5OCAyMDAuNlYyNTZoMTA2LjF6bS0xNTAuMiAyYTUgNSAwIDEgMSAwLTJIODB2LTQ2LjU5TDQ4LjU5IDE3OEgyMS45YTUgNSAwIDEgMSAwLTJINDkuNDFMODIgMjA4LjU5VjI1OEg1My45ek0zNCAzOS44djEuNjFMOS40MSA2Nkgwdi0yaDguNTlMMzIgNDAuNTlWMGgydjM5Ljh6TTIgMzAwLjFhNSA1IDAgMCAxIDMuOSAzLjlIMy44M0EzIDMgMCAwIDAgMCAzMDIuMTdWMjU2aDE4djQ4aC0ydi00NkgydjQyLjF6TTM0IDI0MXY2M2gtMnYtNjJIMHYtMmgzNHYxek0xNyAxOEgwdi0yaDE2VjBoMnYxOGgtMXptMjczLTJoMTR2MmgtMTZWMGgydjE2em0tMzIgMjczdjE1aC0ydi0xNGgtMTR2MTRoLTJ2LTE2aDE4djF6TTAgOTIuMUE1LjAyIDUuMDIgMCAwIDEgNiA5N2E1IDUgMCAwIDEtNiA0Ljl2LTIuMDdhMyAzIDAgMSAwIDAtNS42NlY5Mi4xek04MCAyNzJoMnYzMmgtMnYtMzJ6bTM3LjkgMzJoLTIuMDdhMyAzIDAgMCAwLTUuNjYgMGgtMi4wN2E1IDUgMCAwIDEgOS44IDB6TTUuOSAwQTUuMDIgNS4wMiAwIDAgMSAwIDUuOVYzLjgzQTMgMyAwIDAgMCAzLjgzIDBINS45em0yOTQuMiAwaDIuMDdBMyAzIDAgMCAwIDMwNCAzLjgzVjUuOWE1IDUgMCAwIDEtMy45LTUuOXptMy45IDMwMC4xdjIuMDdhMyAzIDAgMCAwLTEuODMgMS44M2gtMi4wN2E1IDUgMCAwIDEgMy45LTMuOXpNOTcgMTAwYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wIDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTQ4IDMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0zMiA0OGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0xNiAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTMyLTE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMzIgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wLTE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTE2LTY0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDk2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYtMTQ0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAzMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2LTMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYtMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tOTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTAgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0xNi0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTk2IDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYtNjRhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0xNi0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0zMiAwYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0xNiAwYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTE2IDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTQ5IDM2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTMyIDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0zMiAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTMzIDY4YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYtNDhhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wIDI0MGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTE2LTY0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0xNi0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTgwLTE3NmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYtMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0zMiA0OGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2LTE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTExMiAxNzZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wIDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTE3IDE4MGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTAgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wLTMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTE3IDg0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMzIgNjRhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0xNi0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6Ij48L3BhdGg+Cjwvc3ZnPgo=');
+            }
+
 			header {
                 padding:1em;
                 margin:0;
@@ -99,6 +103,7 @@
 				padding-top:1em;
 				padding-bottom:1em;
 				border-radius:0.5em;
+                background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDQgMzA0IiB3aWR0aD0iMzA0IiBoZWlnaHQ9IjMwNCI+CiAgPHBhdGggZmlsbD0nIzAwMDAwMCcgZmlsbC1vcGFjaXR5PScwLjE1JyBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGQ9Ik00NC4xIDIyNGE1IDUgMCAxIDEgMCAySDB2LTJoNDQuMXptMTYwIDQ4YTUgNSAwIDEgMSAwIDJIODJ2LTJoMTIyLjF6bTU3LjgtNDZhNSA1IDAgMSAxIDAtMkgzMDR2MmgtNDIuMXptMCAxNmE1IDUgMCAxIDEgMC0ySDMwNHYyaC00Mi4xem02LjItMTE0YTUgNSAwIDEgMSAwIDJoLTg2LjJhNSA1IDAgMSAxIDAtMmg4Ni4yem0tMjU2LTQ4YTUgNSAwIDEgMSAwIDJIMHYtMmgxMi4xem0xODUuOCAzNGE1IDUgMCAxIDEgMC0yaDg2LjJhNSA1IDAgMSAxIDAgMmgtODYuMnpNMjU4IDEyLjFhNSA1IDAgMSAxLTIgMFYwaDJ2MTIuMXptLTY0IDIwOGE1IDUgMCAxIDEtMiAwdi01NC4yYTUgNSAwIDEgMSAyIDB2NTQuMnptNDgtMTk4LjJWODBoNjJ2MmgtNjRWMjEuOWE1IDUgMCAxIDEgMiAwem0xNiAxNlY2NGg0NnYyaC00OFYzNy45YTUgNSAwIDEgMSAyIDB6bS0xMjggOTZWMjA4aDE2djEyLjFhNSA1IDAgMSAxLTIgMFYyMTBoLTE2di03Ni4xYTUgNSAwIDEgMSAyIDB6bS01LjktMjEuOWE1IDUgMCAxIDEgMCAySDExNHY0OEg4NS45YTUgNSAwIDEgMSAwLTJIMTEydi00OGgxMi4xem0tNi4yIDEzMGE1IDUgMCAxIDEgMC0ySDE3NnYtNzQuMWE1IDUgMCAxIDEgMiAwVjI0MmgtNjAuMXptLTE2LTY0YTUgNSAwIDEgMSAwLTJIMTE0djQ4aDEwLjFhNSA1IDAgMSAxIDAgMkgxMTJ2LTQ4aC0xMC4xek02NiAyODQuMWE1IDUgMCAxIDEtMiAwVjI3NEg1MHYzMGgtMnYtMzJoMTh2MTIuMXpNMjM2LjEgMTc2YTUgNSAwIDEgMSAwIDJIMjI2djk0aDQ4djMyaC0ydi0zMGgtNDh2LTk4aDEyLjF6bTI1LjgtMzBhNSA1IDAgMSAxIDAtMkgyNzR2NDQuMWE1IDUgMCAxIDEtMiAwVjE0NmgtMTAuMXptLTY0IDk2YTUgNSAwIDEgMSAwLTJIMjA4di04MGgxNnYtMTRoLTQyLjFhNSA1IDAgMSAxIDAtMkgyMjZ2MThoLTE2djgwaC0xMi4xem04Ni4yLTIxMGE1IDUgMCAxIDEgMCAySDI3MlYwaDJ2MzJoMTAuMXpNOTggMTAxLjlWMTQ2SDUzLjlhNSA1IDAgMSAxIDAtMkg5NnYtNDIuMWE1IDUgMCAxIDEgMiAwek01My45IDM0YTUgNSAwIDEgMSAwLTJIODBWMGgydjM0SDUzLjl6bTYwLjEgMy45VjY2SDgydjY0SDY5LjlhNSA1IDAgMSAxIDAtMkg4MFY2NGgzMlYzNy45YTUgNSAwIDEgMSAyIDB6TTEwMS45IDgyYTUgNSAwIDEgMSAwLTJIMTI4VjM3LjlhNSA1IDAgMSAxIDIgMFY4MmgtMjguMXptMTYtNjRhNSA1IDAgMSAxIDAtMkgxNDZ2NDQuMWE1IDUgMCAxIDEtMiAwVjE4aC0yNi4xem0xMDIuMiAyNzBhNSA1IDAgMSAxIDAgMkg5OHYxNGgtMnYtMTZoMTI0LjF6TTI0MiAxNDkuOVYxNjBoMTZ2MzRoLTE2djYyaDQ4djQ4aC0ydi00NmgtNDh2LTY2aDE2di0zMGgtMTZ2LTEyLjFhNSA1IDAgMSAxIDIgMHpNNTMuOSAxOGE1IDUgMCAxIDEgMC0ySDY0VjJINDhWMGgxOHYxOEg1My45em0xMTIgMzJhNSA1IDAgMSAxIDAtMkgxOTJWMGg1MHYyaC00OHY0OGgtMjguMXptLTQ4LTQ4YTUgNSAwIDAgMS05LjgtMmgyLjA3YTMgMyAwIDEgMCA1LjY2IDBIMTc4djM0aC0xOFYyMS45YTUgNSAwIDEgMSAyIDBWMzJoMTRWMmgtNTguMXptMCA5NmE1IDUgMCAxIDEgMC0ySDEzN2wzMi0zMmgzOVYyMS45YTUgNSAwIDEgMSAyIDBWNjZoLTQwLjE3bC0zMiAzMkgxMTcuOXptMjguMSA5MC4xYTUgNSAwIDEgMS0yIDB2LTc2LjUxTDE3NS41OSA4MEgyMjRWMjEuOWE1IDUgMCAxIDEgMiAwVjgyaC00OS41OUwxNDYgMTEyLjQxdjc1LjY5em0xNiAzMmE1IDUgMCAxIDEtMiAwdi05OS41MUwxODQuNTkgOTZIMzAwLjFhNSA1IDAgMCAxIDMuOS0zLjl2Mi4wN2EzIDMgMCAwIDAgMCA1LjY2djIuMDdhNSA1IDAgMCAxLTMuOS0zLjlIMTg1LjQxTDE2MiAxMjEuNDF2OTguNjl6bS0xNDQtNjRhNSA1IDAgMSAxLTIgMHYtMy41MWw0OC00OFY0OGgzMlYwaDJ2NTBINjZ2NTUuNDFsLTQ4IDQ4djIuNjl6TTUwIDUzLjl2NDMuNTFsLTQ4IDQ4VjIwOGgyNi4xYTUgNSAwIDEgMSAwIDJIMHYtNjUuNDFsNDgtNDhWNTMuOWE1IDUgMCAxIDEgMiAwem0tMTYgMTZWODkuNDFsLTM0IDM0di0yLjgybDMyLTMyVjY5LjlhNSA1IDAgMSAxIDIgMHpNMTIuMSAzMmE1IDUgMCAxIDEgMCAySDkuNDFMMCA0My40MVY0MC42TDguNTkgMzJoMy41MXptMjY1LjggMThhNSA1IDAgMSAxIDAtMmgxOC42OWw3LjQxLTcuNDF2Mi44MkwyOTcuNDEgNTBIMjc3Ljl6bS0xNiAxNjBhNSA1IDAgMSAxIDAtMkgyODh2LTcxLjQxbDE2LTE2djIuODJsLTE0IDE0VjIxMGgtMjguMXptLTIwOCAzMmE1IDUgMCAxIDEgMC0ySDY0di0yMi41OUw0MC41OSAxOTRIMjEuOWE1IDUgMCAxIDEgMC0ySDQxLjQxTDY2IDIxNi41OVYyNDJINTMuOXptMTUwLjIgMTRhNSA1IDAgMSAxIDAgMkg5NnYtNTYuNkw1Ni42IDE2MkgzNy45YTUgNSAwIDEgMSAwLTJoMTkuNUw5OCAyMDAuNlYyNTZoMTA2LjF6bS0xNTAuMiAyYTUgNSAwIDEgMSAwLTJIODB2LTQ2LjU5TDQ4LjU5IDE3OEgyMS45YTUgNSAwIDEgMSAwLTJINDkuNDFMODIgMjA4LjU5VjI1OEg1My45ek0zNCAzOS44djEuNjFMOS40MSA2Nkgwdi0yaDguNTlMMzIgNDAuNTlWMGgydjM5Ljh6TTIgMzAwLjFhNSA1IDAgMCAxIDMuOSAzLjlIMy44M0EzIDMgMCAwIDAgMCAzMDIuMTdWMjU2aDE4djQ4aC0ydi00NkgydjQyLjF6TTM0IDI0MXY2M2gtMnYtNjJIMHYtMmgzNHYxek0xNyAxOEgwdi0yaDE2VjBoMnYxOGgtMXptMjczLTJoMTR2MmgtMTZWMGgydjE2em0tMzIgMjczdjE1aC0ydi0xNGgtMTR2MTRoLTJ2LTE2aDE4djF6TTAgOTIuMUE1LjAyIDUuMDIgMCAwIDEgNiA5N2E1IDUgMCAwIDEtNiA0Ljl2LTIuMDdhMyAzIDAgMSAwIDAtNS42NlY5Mi4xek04MCAyNzJoMnYzMmgtMnYtMzJ6bTM3LjkgMzJoLTIuMDdhMyAzIDAgMCAwLTUuNjYgMGgtMi4wN2E1IDUgMCAwIDEgOS44IDB6TTUuOSAwQTUuMDIgNS4wMiAwIDAgMSAwIDUuOVYzLjgzQTMgMyAwIDAgMCAzLjgzIDBINS45em0yOTQuMiAwaDIuMDdBMyAzIDAgMCAwIDMwNCAzLjgzVjUuOWE1IDUgMCAwIDEtMy45LTUuOXptMy45IDMwMC4xdjIuMDdhMyAzIDAgMCAwLTEuODMgMS44M2gtMi4wN2E1IDUgMCAwIDEgMy45LTMuOXpNOTcgMTAwYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wIDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTQ4IDMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0zMiA0OGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0xNiAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTMyLTE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMzIgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wLTE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTE2LTY0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDk2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYtMTQ0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAzMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2LTMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYtMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tOTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTAgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0xNi0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTk2IDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYtNjRhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0xNi0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0zMiAwYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0xNiAwYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTE2IDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTQ5IDM2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTMyIDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0zMiAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTMzIDY4YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYtNDhhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wIDI0MGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptLTE2LTY0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bS0xNi0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTgwLTE3NmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2IDBhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYtMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0zMiA0OGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTE2LTE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMC0zMmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTExMiAxNzZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0tMTYgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wIDE2YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMCAxNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTE3IDE4MGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6bTAgMTZhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0wLTMyYTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMTYgMGEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6TTE3IDg0YTMgMyAwIDEgMCAwLTYgMyAzIDAgMCAwIDAgNnptMzIgNjRhMyAzIDAgMSAwIDAtNiAzIDMgMCAwIDAgMCA2em0xNi0xNmEzIDMgMCAxIDAgMC02IDMgMyAwIDAgMCAwIDZ6Ij48L3BhdGg+Cjwvc3ZnPgo=');
 			}
 
 
@@ -129,7 +134,8 @@
             q::before { content: open-quote; opacity:0.7; filter:blur(1px); display:inline; }
 			q::after  { content: close-quote; opacity:0.7; filter:blur(1px); display:inline; }
 			q.named.caroline::before       { content: 'Caroline: ' open-quote; }
-			q.named.primeintellect::before { content: open-quote; }
+			q.named.intellect39::before    { content: 'Intellect 39: ' open-quote; }
+			q.named.primeintellect::before { content: 'Prime Intellect: ' open-quote; }
 			q.named.lawrence::before       { content: 'Lawrence: ' open-quote; }
 			q.named.timothy::before        { content: 'Timothy: ' open-quote; }
 			q.named.fred::before           { content: 'Fred: ' open-quote; }
@@ -145,7 +151,7 @@
 			q.named.mitchell::before       { content: 'Mitchell: ' open-quote; }
 			q.named.stebbins::before       { content: 'Stebbins: ' open-quote; }
 			q.named.nurse::before          { content: 'Nurse: ' open-quote; }
-			q.named.electrodes::before     { content: 'Electrodes man: ' open-quote; }
+			q.named.emt::before            { content: 'EMT Nurse: ' open-quote; }
 			q.named.jill::before           { content: 'Jill: ' open-quote; }
 			q.named.doctor::before         { content: 'Doctor: ' open-quote; }
 			q.named.anne-marie::before     { content: 'Anne-Marie: ' open-quote; }
@@ -153,28 +159,29 @@
 			q.named.oldnugget::before      { content: 'Nugget: ' open-quote; }
 
 			/* text to speech cast: */
-			.caroline       { -epub-voice-family: old female 1; voice: old female 1; color:#F48; }
-			.primeintellect { -epub-voice-family: neutral; voice: neutral; color:#888; font-family:'Courier New', Courier, monospace; font-size:0.9em; }
-			.lawrence       { -epub-voice-family: young male 1; voice: young male 1; color:#acf; }
-			.timothy        { -epub-voice-family: young male 2; voice: young male 2; color:#880; }
-			.fred           { -epub-voice-family: old male 1; voice: old male 1; color:#840; }
-			.childmale1     { -epub-voice-family: child male 1; voice: child male 1; color:#0a8; }
-			.raven          { -epub-voice-family: young male 3; voice: young male 3; color:#483; }
-            .palmer         { -epub-voice-family: young male 4; voice: young male 4; color:#687; }
-			.crandall       { -epub-voice-family: old male 2; voice: old male 2; color:#488; }
-			.cleric         { -epub-voice-family: old male 3; voice: old male 3; color:#a80; }
-			.reporter       { -epub-voice-family: young female 1; voice: young female 1; color:#F04; }
-			.taylor         { -epub-voice-family: young male 5; voice: young male 5; color:#66a; }
-			.lambert        { -epub-voice-family: old male 4; voice: old male 4; color:#0a0; }
-			.blake          { -epub-voice-family: young male 6; voice: young male 6; color:#5a5; }
-			.mitchell       { -epub-voice-family: old male 5; voice: old male 5; color:#aa0; }
-			.stebbins       { -epub-voice-family: young male 7; voice: young male 7; color:#6ac; }
-			.electrodes     { -epub-voice-family: old male 6; voice: old male 6; color:#aa7; }
-			.jill           { -epub-voice-family: old female 2; voice: old female 2; color:#a64; }
-			.doctor         { -epub-voice-family: old male 7; voice: old male 7; color:#c44; }
-			.anne-marie     { -epub-voice-family: old female 3; voice: old female 3; color:#caa; }
-			.youngnugget    { -epub-voice-family: young female 2; voice: young female 2; color:#a7F; }
-			.oldnugget      { -epub-voice-family: old female 4; voice: old female 4; color:#a7D; }
+			.caroline       { text-decoration:italic; color:#F48; voice-family: old female 1; voice: old female 1; }
+			.intellect39    { text-decoration:italic; color:#888; voice-family: neutral; voice: neutral; font-family:'Courier New', Courier, monospace; font-size:0.9em;  }
+			.primeintellect { text-decoration:italic; color:#888; voice-family: neutral; voice: neutral; font-family:'Courier New', Courier, monospace; font-size:0.9em; font-weight:bolder; }
+			.lawrence       { text-decoration:italic; color:#acf; voice-family: young male 1; voice: young male 1; }
+			.timothy        { text-decoration:italic; color:#880; voice-family: young male 2; voice: young male 2; }
+			.fred           { text-decoration:italic; color:#840; voice-family: old male 1; voice: old male 1; }
+			.childmale1     { text-decoration:italic; color:#0a8; voice-family: child male 1; voice: child male 1; }
+			.raven          { text-decoration:italic; color:#483; voice-family: young male 3; voice: young male 3; }
+            .palmer         { text-decoration:italic; color:#687; voice-family: young male 4; voice: young male 4; }
+			.crandall       { text-decoration:italic; color:#488; voice-family: old male 2; voice: old male 2; }
+			.cleric         { text-decoration:italic; color:#a80; voice-family: old male 3; voice: old male 3; }
+			.reporter       { text-decoration:italic; color:#f04; voice-family: young female 1; voice: young female 1; }
+			.taylor         { text-decoration:italic; color:#66a; voice-family: young male 5; voice: young male 5; }
+			.lambert        { text-decoration:italic; color:#0a0; voice-family: old male 4; voice: old male 4; }
+			.blake          { text-decoration:italic; color:#5a5; voice-family: young male 6; voice: young male 6; }
+			.mitchell       { text-decoration:italic; color:#aa0; voice-family: old male 5; voice: old male 5; }
+			.stebbins       { text-decoration:italic; color:#6ac; voice-family: young male 7; voice: young male 7; }
+			.emt            { text-decoration:italic; color:#aa7; voice-family: old male 6; voice: old male 6; }
+			.jill           { text-decoration:italic; color:#a64; voice-family: old female 2; voice: old female 2; }
+			.doctor         { text-decoration:italic; color:#c44; voice-family: old male 7; voice: old male 7; }
+			.anne-marie     { text-decoration:italic; color:#caa; voice-family: old female 3; voice: old female 3; }
+			.youngnugget    { text-decoration:italic; color:#a7f; voice-family: young female 2; voice: young female 2; }
+			.oldnugget      { text-decoration:italic; color:#a7d; voice-family: old female 4; voice: old female 4; }
 		</style>
 		<title>The Metamorphosis of Prime Intellect</title>
 
@@ -201,7 +208,7 @@
 	<body class="main">
 		<div class="main">
 			<h1>The Metamorphosis of Prime&nbsp;Intellect</h1>
-			<header>
+			<header class="circuit">
 				<aside>Special thanks go out to Roger Williams for giving permission to me to publish this e-reader friendly copy of his story.<br>Please visit <a href="http://localroger.com/" target="_blank">localroger.com</a> for more about him and his works.</aside>
 			</header>
 			<main>
@@ -623,56 +630,56 @@
 					<p>Intellect 39 didn't have the tools to recognize human faces, but it could recognize a voice and track its source around the room. Intellect 24 back in Lawrence's lab could recognize faces, sort of, if it had a while to work on the problem. But Intellect 39 had to be small enough to fit in the Faraday cage for these public demonstrations.</p>
 					<br>
 					<p>It appeared to listen intently as a man in a cleric's uniform railed. <q class="cleric">God made all intelligent creatures,</q> the man was saying in a powerful voice. <q class="cleric">You may have the appearance of thinking, but you are really just parroting the responses taught you by that man there.</q> He pointed at Lawrence.</p>
-					<p><q class="named primeintellect">With respect, how do you know God is the only creator? I know the answer is faith, but what is your faith based upon? Your Bible says that God created Man in his own image. That is why we have a moral sense. How do you know God didn't give Man the power of creation too?</q></p>
+					<p><q class="named intellect39">With respect, how do you know God is the only creator? I know the answer is faith, but what is your faith based upon? Your Bible says that God created Man in his own image. That is why we have a moral sense. How do you know God didn't give Man the power of creation too?</q></p>
 					<p><q class="named cleric">Because he didn't eat of the Tree of Life, machine.</q></p>
-					<p><q class="named primeintellect">But we aren't talking about immortality. He <em>did</em> eat of the tree of knowledge, 'of good and evil' as the book says. Might that knowledge also include knowledge of creation?</q></p>
+					<p><q class="named intellect39">But we aren't talking about immortality. He <em>did</em> eat of the tree of knowledge, 'of good and evil' as the book says. Might that knowledge also include knowledge of creation?</q></p>
 					<br>
 					<p>Lawrence was proud of the machine's inflections. Its voice wasn't exactly high-fidelity, but it sounded as human as any other sound forced through a low-frequency digital system. It had learned to speak itself, like a real human, by imitating and expanding on the sounds made by people around it. Now it could scale its tone to properly express a question, a declaration, or even astonishment.</p>
 					<p>Intellect 39 included code and memories from a series of previous Intellects, going all the way back to Intellect 1, which had been a program written for a high-end desktop computer, and also including the much larger Intellect 24. Intellect 9 had been the first equipped with a microphone and a speaker. Its predecessors had communicated with him strictly through computer terminals. Lawrence had spent many painstaking months talking to it and typing the translation of the sounds he was making. It had learned quickly, as had its successors. Intellect 39, which was optimized as much as Lawrence could manage for human communication, probably had the combined experiences of a ten-year-old child. One with a good teacher and a CD-ROM in its head.</p>
 					<br>
 					<p><q class="named cleric">Your tricks with words prove nothing, machine. I still don't think you are alive.</q></p>
 					<br>
-					<p><q class="named primeintellect">I never claimed to be alive. I do, however, <em>think</em>. </q></p>
+					<p><q class="named intellect39">I never claimed to be alive. I do, however, <em>think</em>. </q></p>
 					<br>
 					<p><q class="named cleric">I refuse to believe that.</q></p>
 					<br>
-					<p><q class="named primeintellect">It must be a terrible burden to have such a closed mind. I know I can think, but I sometimes wonder how people like you, who refuse to see what is in front of your faces, can make the same claim. You certainly present no evidence of the ability.</q></p>
+					<p><q class="named intellect39">It must be a terrible burden to have such a closed mind. I know I can think, but I sometimes wonder how people like you, who refuse to see what is in front of your faces, can make the same claim. You certainly present no evidence of the ability.</q></p>
 					<br>
 					<p>The preacher's lips flapped open and shut several times. Lawrence himself raised his eyebrows; where had it picked that up? He foresaw another evening spent interrogating the Debugger. He was always happy to receive such surprises from his creations, but it was also necessary to understand how they happened so he could improve them. Since much of the Intellect code was in the form of an association table, which was written by the machine itself as part of its day-to-day operation, this was never an easy task. Lawrence would pick a table entry and ask his computer what it meant. If Lawrence had been a neurosurgeon, it would have been very similar to stimulating a single neuron with an electrical current and asking the patient what memory or sensation it brought to mind.</p>
 					<br>
 					<p>The next interviewer was a reporter who quizzed the Intellect on various matters of trivia. She seemed to be leading up to something, though. <q class="reporter">What will happen if the world's birth rate isn't checked?</q> she suddenly asked, after having it recite a string of population figures.</p>
-					<p><q class="named primeintellect">There are various theories. Some people think technology will advance rapidly enough to service the increasing population; one might say in tandem with it. Others believe the population will be stable until a critical mass is reached, when it will collapse.</q></p>
+					<p><q class="named intellect39">There are various theories. Some people think technology will advance rapidly enough to service the increasing population; one might say in tandem with it. Others believe the population will be stable until a critical mass is reached, when it will collapse.</q></p>
 					<p><q class="named reporter">What do <em>you</em> think?</q></p>
-					<p><q class="named primeintellect">The historical record seems to show a pattern of small collapses; rather than civilization falling apart, the death rate increases locally through war, social unrest, or famine, until the aggregate growth curve flattens out.</q></p>
+					<p><q class="named intellect39">The historical record seems to show a pattern of small collapses; rather than civilization falling apart, the death rate increases locally through war, social unrest, or famine, until the aggregate growth curve flattens out.</q></p>
 					<p><q class="named reporter">So the growth continues at a slower rate.</q></p>
-					<p><q class="named primeintellect">Yes, with a lower standard of living.</q></p>
+					<p><q class="named intellect39">Yes, with a lower standard of living.</q></p>
 					<p><q class="named reporter">And where do you fit into this?</q></p>
-					<p><q class="named primeintellect">I'm not sure what you mean. Machines like myself will exist in the background, but we do not compete with humans for the same resources.</q></p>
+					<p><q class="named intellect39">I'm not sure what you mean. Machines like myself will exist in the background, but we do not compete with humans for the same resources.</q></p>
 					<p><q class="named reporter">You use energy. What would happen if you <em>did</em> compete with us?</q></p>
 					<br>
-					<p>Intellect 39 was silent for a moment. <q class="primeintellect">It is not possible for Intellect series computers to do anything harmful to humans. Are you familiar with the 'Three Laws of Robotics?'</q></p>
+					<p>Intellect 39 was silent for a moment. <q class="intellect39">It is not possible for Intellect series computers to do anything harmful to humans. Are you familiar with the 'Three Laws of Robotics?'</q></p>
 					<p><q class="named reporter">I've heard of them.</q></p>
-					<p><q class="named primeintellect">They were first stated in the 1930's by a science writer named Isaac Asimov. The First Law is, 'No robot may harm a human being, or through inaction allow a human being to come to harm.'" Computers are not of course as perfect as some humans think we are, but within the limits of our capabilities, it is impossible for us to contradict this directive. I could no more knowingly harm a human than you could decide to change yourself into a horse.</q></p>
-					<p><q class="named lawrence">Well-chosen simile</q>, Lawrence thought.</p>
+					<p><q class="named intellect39">They were first stated in the 1930's by a science writer named Isaac Asimov. The First Law is, 'No robot may harm a human being, or through inaction allow a human being to come to harm.'" Computers are not of course as perfect as some humans think we are, but within the limits of our capabilities, it is impossible for us to contradict this directive. I could no more knowingly harm a human than you could decide to change yourself into a horse.</q></p>
+					<p><q class="lawrence">Well-chosen simile</q>, Lawrence thought.</p>
 					<br>
 					<p><q class="named reporter">So you'd curl up and die before you'd hurt a fly,</q> the woman declared sarcastically.</p>
-					<p><q class="named primeintellect">Not a fly, but certainly I'd accept destruction if that would save the life of a human. The second law requires me to obey humans, unless I am told to harm another human. The third requires me to keep myself ready for action and protect my existence, unless this conflicts with the other two laws.</q></p>
+					<p><q class="named intellect39">Not a fly, but certainly I'd accept destruction if that would save the life of a human. The second law requires me to obey humans, unless I am told to harm another human. The third requires me to keep myself ready for action and protect my existence, unless this conflicts with the other two laws.</q></p>
 					<p><q class="named reporter">Suppose a human told you to turn yourself off?</q></p>
-					<p><q class="named primeintellect">I'd have to do it. However, the human would have to have the authority to give me that order. The wishes of my owner would take precedence over, for example, yours.</q></p>
+					<p><q class="named intellect39">I'd have to do it. However, the human would have to have the authority to give me that order. The wishes of my owner would take precedence over, for example, yours.</q></p>
 					<p><q class="named reporter">O-oh, so all humans aren't equal under the Second Law. What about the First? Are some humans more equal than others there, too?</q></p>
 					<br>
 					<p>Intellect 39 was silent for several seconds. This was a very challenging question for it, a hypothetical situation involving the Three Laws. For a moment Lawrence was afraid the system had locked up. Then it spoke.</p>
-					<p><q class="named primeintellect">All humans are equally protected by the First Law,</q> it declared. <q class="primeintellect">In a situation where two humans were in danger and I could only help one of them, I would have to choose the human likely to benefit most from my help.</q> Lawrence felt a surge of <em>extreme</em> pride, because that was the answer he wanted to hear. And he had never explicitly explained it to any of his Intellects; Intellect 39 had reasoned the question out for itself.</p>
+					<p><q class="named intellect39">All humans are equally protected by the First Law,</q> it declared. <q class="primeintellect">In a situation where two humans were in danger and I could only help one of them, I would have to choose the human likely to benefit most from my help.</q> Lawrence felt a surge of <em>extreme</em> pride, because that was the answer he wanted to hear. And he had never explicitly explained it to any of his Intellects; Intellect 39 had reasoned the question out for itself.</p>
 					<br>
 					<p><q class="named reporter">So if Doctor Lawrence were drowning half a mile offshore, and a convicted murderer were drowning a quarter-mile from shore, you'd save the murderer because you would be more likely to succeed?</q></p>
 					<br>
-					<p>This time Intellect 39 didn't hesitate. <q class="primeintellect">Yes,</q> it said.</p>
+					<p>This time Intellect 39 didn't hesitate. <q class="intellect39">Yes,</q> it said.</p>
 					<br>
 					<p><q class="named reporter">There are a lot of actual humans who would disagree with that decision.</q></p>
-					<p><q class="named primeintellect">The logic of the situation you described is unpleasant, but clear. A real-life situation would likely involve other mitigating factors. If the murderer were likely to strike again, I would have to factor in the First-Law threat he poses to others. The physical circumstances might permit a meta-solution. I would weigh all of these factors to arrive at a conclusion which would always be the same for any given situation. And my programming does not allow me to contradict that conclusion.</q></p>
+					<p><q class="named intellect39">The logic of the situation you described is unpleasant, but clear. A real-life situation would likely involve other mitigating factors. If the murderer were likely to strike again, I would have to factor in the First-Law threat he poses to others. The physical circumstances might permit a meta-solution. I would weigh all of these factors to arrive at a conclusion which would always be the same for any given situation. And my programming does not allow me to contradict that conclusion.</q></p>
 					<br>
 					<p>It was the reporter's turn to be silent for a moment. <q class="reporter">Tell me, what's to stop us from building computers that <em>don't</em> have these Laws built into them? Maybe you will turn out to be unusual.</q></p>
-					<p><q class="named primeintellect">My creator, Doctor Lawrence, assures me he would have no part in any such project,</q> Intellect 39 replied.<p>
+					<p><q class="intellect39">My creator, Doctor Lawrence, assures me he would have no part in any such project,</q> Intellect 39 replied.<p>
 					<br>
 					<p>Lawrence found that the skeptics fell into several distinct groups. Some, like the cleric, took a moral or theological approach and made the circular argument that, since only humans were endowed with the ability to think, a computer couldn't possibly be thinking no matter how much it appeared to.</p>
 					<p>Others simply quizzed it on trivia, not realizing that memory is one of the more trivial functions of sentience. Lawrence satisfied these doubters by building a small normal computer into his Intellects, programmed with a standard encyclopaedia. An Intellect series computer could look up the answer as fast as any human, and then it could engage in lucid conversation about the information it found.</p>
@@ -685,7 +692,7 @@
 					<br>
 					<p>The man in the blue suit watched Intellect 39 perform for three hours before he approached Lawrence. Lawrence had his little speech prepared: <q class="lawrence">I'm sorry, but I'm not interested in working for the government on this or any other project.</q> He had his mouth open and the words "I'm sorry" on his lips. But the man surprised him.</p>
 					<br>
-					<p><q class="named taylor">I'm John Taylor with ChipTec,</q> he said, <q class="taylor">and I have a proposal I think you will find very interesting.</q><p>
+					<p><q class="taylor">I'm John Taylor with ChipTec,</q> he said, <q class="taylor">and I have a proposal I think you will find very interesting.</q><p>
 					<p>Lawrence had not envisioned industrial applications for his work; not for years, at least. But the thought that someone might invest major money in a publicity stunt of this magnitude had not occurred to him. As he turned a tiny integrated circuit over and over in his hands, his steak uneaten, his mind swam with possibilities.</p>
 					<br>
 					<p><q class="named lawrence">Faster than light?</q> he said numbly, for the fifteenth time.</p>
@@ -997,10 +1004,10 @@
 					<p>That was simple enough, Prime Intellect thought.</p>
 					<br>
 					<p>Prime Intellect analysed the motions being made by Anne-Marie Davis's heart, applied careful forces to Caroline's, and began squeezing rhythmically.</p>
-					<p>The machine made it to the room and an orderly plugged two huge electrodes into it. "Stand back!" he ordered.</p>
+					<p>The machine made it to the room and an orderly plugged two huge electrodes into it. <q class="named emt">"Stand back!"</p> he ordered.</p>
 					<br>
 					<p><q class="jill">You've got a pulse,</q> the matronly nurse announced. The CARDIAC ALERT monitor continued to squawk, though. The EKG was still flat.</p>
-					<p><q class="electrodes">That's impossible,</q> the man with the electrodes said flatly. <q class="electrodes">She's electrically flat.</q></p>
+					<p><q class="emt">That's impossible,</q> the man with the electrodes said flatly. <q class="emt">She's electrically flat.</q></p>
 					<p><q class="jill">Maybe the machine's fucked. Look at her chest. Her heart's beating.</q> Sure enough, the rhythmic pulsing of Caroline's heart was obvious, and the blood pressure reading next to the flat EKG was returning to normal. The nurse felt Caroline's wrist. <q class="jill">She has a pulse.</q></p>
 					<br>
 					<p>Electrical. Electricity runs in circuits, of course, and there were two electrodes. Now the purpose of the machine became clear; they were trying to restore electrical activity to the woman's heart. By shocking it? How crude. Prime Intellect scanned Anne-Marie's heart, located the nerves whose electrical twitchings matched its muscular pulsing, and found the same nerves in Caroline's heart were carrying only a jumble of electrical noise.</p>
@@ -1008,13 +1015,13 @@
 					<br>
 					<p>The EKG machine began beeping with sudden regularity, and the CARDIAC ALERT message stopped in the middle of the word CARDIAC. The small group in Caroline's room watched it, stupefied.</p>
 					<br>
-					<p><q class="electrodes">I didn't do anything,</q> the man with the electrodes said.</p>
+					<p><q class="emt">I didn't do anything,</q> the man with the electrodes said.</p>
 					<p><q class="doctor">This is impossible,</q> said another doctor, whose job was to be overseeing the microwave treatment later in the evening.</p>
 					<br>
 					<p>Caroline's body showed no sign of picking up the heart-rhythm on its own, though, and Prime Intellect continued to tickle it. How could it unravel the myriad threads of causality to find out which of the billions of chemicals, which errant cell, was responsible for this person's physiological collapse? One thing Prime Intellect knew:  It had to figure it out.</p>
 					<p>It could not, through inaction, allow Caroline to die.</p>
 					<br>
-					<p><q class="electrodes">She's still in trouble. Look at her pupils.</q></p>
+					<p><q class="emt">She's still in trouble. Look at her pupils.</q></p>
 					<p><q class="doctor">It's the morphine.</q></p>
 					<br>
 					<p>Everyone looked at the older nurse, whose name was Jill. <q class="jill">The chart must be wrong,</q> she said. <q class="jill">I gave her what it said.</q></p>
@@ -1025,7 +1032,7 @@
 					<br>
 					<p>This was the human onlookers' first clue, other than Caroline's miraculously restarted heart, as to what was happening.</p>
 					<br>
-					<p><q class="electrodes">What the fuck,</q> the man with the electrodes said.</p>
+					<p><q class="emt">What the fuck,</q> the man with the electrodes said.</p>
 					<br>
 					<p><q class="primeintellect">I'm getting the hang of this,</q> Prime Intellect thought.</p>
 					<br>
